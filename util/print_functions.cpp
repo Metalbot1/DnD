@@ -7,8 +7,9 @@ void print_functions::print_vec(std::string vec_name, std::vector<T>& vec){
         return;
     }
 
-    std::cout << vec_name << ": " << std::endl;
+    std::cout << vec_name << ": ";
     for(T& t : vec){
         std::cout << std::to_string(t) << " ";
     }
+    std::cout << std::endl;
 }

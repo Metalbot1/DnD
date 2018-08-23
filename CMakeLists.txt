@@ -12,3 +12,5 @@ file(GLOB CHAR
         DnD5eCharBuilder/*.h)
 
 add_executable(character_builder ${CHAR} ${UTILITIES})
+
+add_executable(debug main_debug.cpp ${UTILITIES})
